@@ -1,27 +1,25 @@
-const express = require("express")
+const express = require('express')
 const server = express()
-const cors = require("cors")
+const cors = require('cors')
+const bodyParser = require('body-parser')
+const mongoose = require('mongoose')
+
+mongoose.connect('mongodb://localhost/db_eit', { useNewUrlParser: true })
+mongoose.connection.on('open', () => {
+  console.log('Je suis connecté à ma base Mongo DB')
+})
+
+const Produits = require('./Models/produits.model')
 
 server.use(cors())
+server.use(bodyParser.json())
 
-server.get("/",function(req,res){
-    res.writeHead(200, {"Content-Type": "text/html; charset=utf-8"})
-    res.end("<h1>Hello World les 4ème années</h1>")
-})
-
-server.get("/page1",function(req,res){
-    res.writeHead(200, {"Content-Type": "text/html; charset=utf-8"})
-    res.end("<h1>Bienvenue sur la page 1</h1>")
-})
-
-server.get("/page/:num",function(req,res){
-    const {num} = req.params
-    res.writeHead(200, {"Content-Type": "text/html; charset=utf-8"})
-    res.end(`<h1>Bienvenue sur la page ${num} 😁</h1>`)
-})
-
-server.get("/datas",function(req,res){
-    const datas = {nom:"Larrat", prenom:"Philippe", ville:"Nogent sur Marne"}
-    res.json(datas)
+server.get('/produits', function (req, res) {})
+server.post('/produits', async (req, res) => {
+  const elem = req.body
+  const infos = await Produits.create(elem)
+  const status = infos._id ? 201 : 400
+  res.writeHead(status)
+  res.end()
 })
 server.listen(3100)
