@@ -19,10 +19,27 @@ server.get('/produits', async function (req, res) {
   res.json(infos)
 })
 
+server.get('/produits/:id', async function (req, res) {
+  const { id } = req.params
+  const infos = await Produits.findOne({ _id: id })
+  console.log(infos)
+  res.json(infos)
+})
+
 server.post('/produits', async (req, res) => {
   const elem = req.body
   const infos = await Produits.create(elem)
   const status = infos._id ? 201 : 400
+  res.writeHead(status)
+  res.end()
+})
+
+server.put('/produits/:id', async (req, res) => {
+  const { id } = req.params
+  const elem = req.body
+  const infos = await Produits.updateOne({ _id: id }, elem)
+  console.log(infos)
+  const status = infos.acknowledged ? 200 : 400
   res.writeHead(status)
   res.end()
 })
