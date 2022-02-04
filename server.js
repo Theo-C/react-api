@@ -14,7 +14,11 @@ const Produits = require('./Models/produits.model')
 server.use(cors())
 server.use(bodyParser.json())
 
-server.get('/produits', function (req, res) {})
+server.get('/produits', async function (req, res) {
+  const infos = await Produits.find()
+  res.json(infos)
+})
+
 server.post('/produits', async (req, res) => {
   const elem = req.body
   const infos = await Produits.create(elem)
@@ -22,4 +26,13 @@ server.post('/produits', async (req, res) => {
   res.writeHead(status)
   res.end()
 })
+
+server.delete('/produits/:id', async (req, res) => {
+  const { id } = req.params
+  const infos = await Produits.deleteOne({ _id: id })
+  console.log(infos)
+  res.writeHead(200)
+  res.end()
+})
+
 server.listen(3100)
