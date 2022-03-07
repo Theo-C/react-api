@@ -1,0 +1,92 @@
+db.films.insertMany([
+  {
+    _id: 1,
+    title: 'Les Temps modernes',
+    duration: 87,
+    genre: 'Comédie/Romance',
+    director: 'Charlie Chaplin',
+    year: 1936,
+    img: 'https://static.fnac-static.com/multimedia/Images/FR/NR/bb/9e/bc/12361403/1507-1/tsp20200612112210/The-Modern-Times.jpg'
+  },
+  {
+    _id: 2,
+    title: 'Interstellar',
+    duration: 169,
+    genre: 'Science-fiction/Aventure',
+    director: 'Christopher Nolan',
+    year: 2014,
+    img: 'https://c.flikshost.com/70305903/backdrops/large/xu9zaAevzQ5nnrsXN6JcahLnG4i.jpg'
+  },
+  {
+    _id: 3,
+    title: 'LE SEIGNEUR DES ANNEAUX : LA COMMUNAUTÉ DE L'ANNEAU',
+    duration: 188,
+    genre: 'Fantastique,Aventure',
+    director: 'Peter Jackson',
+    year: 2001,
+    img : "https://fr.web.img5.acsta.net/c_310_420/medias/nmedia/00/02/16/27/69218096_af.jpg"
+ },
+  {
+    _id: 4,
+    title: 'Taxi',
+    duration: 76,
+    genre: ' Action, Comédie, Policier',
+    director: ' Luc Besson',
+    year: 1998,
+    img : "https://fr.web.img3.acsta.net/c_310_420/medias/nmedia/00/02/49/22/affiche.jpg"
+ },
+  {
+    _id: 5,
+    title: 'Taxi',
+    duration: 132,
+    genre: 'Science fiction, Action',
+    director: 'Luc Besson',
+    year: 1998,
+    img : "https://fr.web.img4.acsta.net/c_310_420/pictures/14/08/21/14/17/385506.jpg"
+ }, 
+  {
+    _id: 6,
+    title: 'Saw',
+    duration: 104,
+    genre: 'Epouvante-horreur, Thriller',
+    director: 'James Wan',
+    year: 2005,
+    img : "https://fr.web.img6.acsta.net/c_310_420/pictures/14/10/18/13/11/145703.jpg"
+ },
+  {
+    _id: 7,
+    title: 'WARCRAFT : LE COMMENCEMENT',
+    duration: 124,
+    genre: 'Fantastique, Action, Aventure',
+    director: 'Duncan Jones',
+    year: 2016,
+    img : "https://fr.web.img6.acsta.net/c_310_420/pictures/16/04/06/12/45/574116.jpg"
+ },
+  {
+    _id: 8,
+    title: 'Jujutsu Kaisen 0',
+    duration: 105,
+    genre: 'Action/Aventure ',
+    director: 'Sunghoo Park',
+    year: 16 mars 2022,
+    img : "https://www.google.com/search?q=jujutsu+kaisen+0&stick=H4sIAAAAAAAAAOPgVeLVT9c3NMwzyi3LNjIy28DI-IhRnlvg5Y97wlJik9acvMYowMXnm1-WmRqckV9ekpmbWsyziFUgqzSrtKS4VCE7MbM4NU_BYAIbIwDCBPxgTAAAAA&sxsrf=APq-WBsSulbz4No3UlpwcFwP428G0mqmSw:1646690999420&tbm=isch&source=iu&ictx=1&vet=1&fir=wuULtMd8xDTLGM%252ClxY8jdCvyzGxBM%252C%252Fg%252F11n2mvk226&usg=AI4_-kQb0wA1dgJp87Lrr6FC9gng8IgnOw&sa=X&ved=2ahUKEwitl8uAgrX2AhUJCxoKHeaIBioQ_B16BAhZEAI#imgrc=wuULtMd8xDTLGM"
+ },
+  {
+    _id: 9,
+    title: 'Un héros',
+    duration: 127,
+    genre: 'Drame/Thriller',
+    director: 'Asghar Farhadi',
+    year: 2021,
+    img : "https://www.google.com/search?q=un+h%C3%A9ros&stick=H4sIAAAAAAAAAOPgVeLVT9c3NMwyK8guqrQw3cDI-IhRnlvg5Y97wlJik9acvMYowMXnm1-WmRqckV9ekpmbWsyziJWzNE8h4_DKovziCWyMABFZQjFFAAAA&sxsrf=APq-WBtxGgLucm_mzDpMk0v3iAl0MDvgkQ:1646691175754&tbm=isch&source=iu&ictx=1&vet=1&fir=p25ENh53Sg22IM%252C0tdmueyP4S-4zM%252C%252Fg%252F11j6pkry85&usg=AI4_-kSui597pO3oqfN4l7OgC1P-P6BO0w&sa=X&ved=2ahUKEwjD3NXUgrX2AhVHLBoKHbPyCtYQ_B16BAhVEAI#imgrc=p25ENh53Sg22IM"
+ },
+  {
+    _id: 10,
+    title: 'Zaï Zaï Zaï Zaï',
+    duration: 83,
+    genre: 'Comédie',
+    director: 'François Desagnat',
+    year: 2020,
+    img : "https://www.google.com/search?q=za%C3%AF+za%C3%AF+za%C3%AF+za%C3%AF&stick=H4sIAAAAAAAAAOPgVeLVT9c3NEwrNzcwq0jJ3sDI-IhRnlvg5Y97wlJik9acvMYowMXnm1-WmRqckV9ekpmbWsyziFW4KvHwegVUYgIbIwBHV0k6TwAAAA&sxsrf=APq-WBtNYB_4tHGi4nN5HlrZUAKJKtnSsw:1646691261318&tbm=isch&source=iu&ictx=1&vet=1&fir=5hQN-xHf8SUKFM%252CkGSbSm_Q75uKZM%252C%252Fg%252F11fw706xdk&usg=AI4_-kRSrZMf98ulJM6RiHFQFPmjmMnvgQ&sa=X&ved=2ahUKEwjdl7z9grX2AhVGzYUKHZzgDoQQ_B16BAhFEAI#imgrc=5hQN-xHf8SUKFM"
+ },
+]
