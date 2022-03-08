@@ -68,7 +68,7 @@ db.films.insertMany([
     duration: 105,
     genre: 'Action/Aventure ',
     director: 'Sunghoo Park',
-    year: 16 mars 2022,
+    year: 2022,
     img : "https://www.google.com/search?q=jujutsu+kaisen+0&stick=H4sIAAAAAAAAAOPgVeLVT9c3NMwzyi3LNjIy28DI-IhRnlvg5Y97wlJik9acvMYowMXnm1-WmRqckV9ekpmbWsyziFUgqzSrtKS4VCE7MbM4NU_BYAIbIwDCBPxgTAAAAA&sxsrf=APq-WBsSulbz4No3UlpwcFwP428G0mqmSw:1646690999420&tbm=isch&source=iu&ictx=1&vet=1&fir=wuULtMd8xDTLGM%252ClxY8jdCvyzGxBM%252C%252Fg%252F11n2mvk226&usg=AI4_-kQb0wA1dgJp87Lrr6FC9gng8IgnOw&sa=X&ved=2ahUKEwitl8uAgrX2AhUJCxoKHeaIBioQ_B16BAhZEAI#imgrc=wuULtMd8xDTLGM"
  },
   {
