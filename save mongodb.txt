@@ -69,7 +69,7 @@ db.films.insertMany([
     genre: 'Action/Aventure ',
     director: 'Sunghoo Park',
     year: 2022,
-    img : "https://www.google.com/search?q=jujutsu+kaisen+0&stick=H4sIAAAAAAAAAOPgVeLVT9c3NMwzyi3LNjIy28DI-IhRnlvg5Y97wlJik9acvMYowMXnm1-WmRqckV9ekpmbWsyziFUgqzSrtKS4VCE7MbM4NU_BYAIbIwDCBPxgTAAAAA&sxsrf=APq-WBsSulbz4No3UlpwcFwP428G0mqmSw:1646690999420&tbm=isch&source=iu&ictx=1&vet=1&fir=wuULtMd8xDTLGM%252ClxY8jdCvyzGxBM%252C%252Fg%252F11n2mvk226&usg=AI4_-kQb0wA1dgJp87Lrr6FC9gng8IgnOw&sa=X&ved=2ahUKEwitl8uAgrX2AhUJCxoKHeaIBioQ_B16BAhZEAI#imgrc=wuULtMd8xDTLGM"
+    img : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRroLHEvOtEUaZJZhmM5KF5fociQU5ATrXsAUQFRIm15dZz9022"
  },
   {
     _id: 9,
@@ -78,7 +78,7 @@ db.films.insertMany([
     genre: 'Drame/Thriller',
     director: 'Asghar Farhadi',
     year: 2021,
-    img : "https://www.google.com/search?q=un+h%C3%A9ros&stick=H4sIAAAAAAAAAOPgVeLVT9c3NMwyK8guqrQw3cDI-IhRnlvg5Y97wlJik9acvMYowMXnm1-WmRqckV9ekpmbWsyziJWzNE8h4_DKovziCWyMABFZQjFFAAAA&sxsrf=APq-WBtxGgLucm_mzDpMk0v3iAl0MDvgkQ:1646691175754&tbm=isch&source=iu&ictx=1&vet=1&fir=p25ENh53Sg22IM%252C0tdmueyP4S-4zM%252C%252Fg%252F11j6pkry85&usg=AI4_-kSui597pO3oqfN4l7OgC1P-P6BO0w&sa=X&ved=2ahUKEwjD3NXUgrX2AhVHLBoKHbPyCtYQ_B16BAhVEAI#imgrc=p25ENh53Sg22IM"
+    img : "https://cdn.radiofrance.fr/s3/cruiser-production/2021/11/4787e4cb-d6cb-4c7a-bed2-f7bdb31eb653/1136_un-heros_1z1a3350_rcamirhosseinshojaei.jpg"
  },
   {
     _id: 10,
@@ -87,6 +87,6 @@ db.films.insertMany([
     genre: 'Comédie',
     director: 'François Desagnat',
     year: 2020,
-    img : "https://www.google.com/search?q=za%C3%AF+za%C3%AF+za%C3%AF+za%C3%AF&stick=H4sIAAAAAAAAAOPgVeLVT9c3NEwrNzcwq0jJ3sDI-IhRnlvg5Y97wlJik9acvMYowMXnm1-WmRqckV9ekpmbWsyziFW4KvHwegVUYgIbIwBHV0k6TwAAAA&sxsrf=APq-WBtNYB_4tHGi4nN5HlrZUAKJKtnSsw:1646691261318&tbm=isch&source=iu&ictx=1&vet=1&fir=5hQN-xHf8SUKFM%252CkGSbSm_Q75uKZM%252C%252Fg%252F11fw706xdk&usg=AI4_-kRSrZMf98ulJM6RiHFQFPmjmMnvgQ&sa=X&ved=2ahUKEwjdl7z9grX2AhVGzYUKHZzgDoQQ_B16BAhFEAI#imgrc=5hQN-xHf8SUKFM"
- },
+    img : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSTLULUC36XK8N6XhcfeuH0KVpG8pPgf1ugODLPRsVF_IoU_B2p"
+ }
 ]
