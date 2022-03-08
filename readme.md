@@ -1,12 +1,7 @@
-# API REST - Mongo DB
-
-Exemple de création d'une application REST avec la base de données NO SQL Mongo DB.
-
-## Installation
 
 Récupérer le repo : 
 
-`git clone https://github.com/plarrat/EIT-4eme-API`
+`git clone https://github.com/Theo-C/react-api`
 
 Se positionner dans le répertoire
 
